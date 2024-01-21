@@ -1,0 +1,16 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.103:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.0.103 - - [21/Jan/2024 15:49:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [21/Jan/2024 15:49:09] "[33mGET /static/css/main.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.0.103 - - [21/Jan/2024 15:49:09] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'boat', 'Name': 'Yusuf Ahmad', 'Rating': '3', 'CommentHead': 'Does the job', 'Comment': 'Nice'}, {'Product': 'boat', 'Name': 'Animesh Debnath', 'Rating': '2', 'CommentHead': 'Not good', 'Comment': "Worst \U0001f62d\U0001f614\U0001f614\U0001f614\U0001f614 \U0001f92e\U0001f922\U0001f92e\U0001f922 Product Ever don't buy it"}, {'Product': 'boat', 'Name': 'Himmat lal  Teli', 'Rating': '1', 'CommentHead': 'Useless product', 'Comment': 'Sound quality is very bad \U0001f61e\U0001f614'}, {'Product': 'boat', 'Name': 'Lalit  Kk', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Good \U0001f60a'}, {'Product': 'boat', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Nice'}, {'Product': 'boat', 'Name': 'Bobby Sharma', 'Rating': '1', 'CommentHead': 'Absolute rubbish!', 'Comment': 'Very bad quality'}, {'Product': 'boat', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Delightful', 'Comment': 'Best \U0001f4ab\U0001f4ab'}, {'Product': 'boat', 'Name': 'Flipkart Customer', 'Rating': '3', 'CommentHead': 'Good', 'Comment': 'Not a Bad'}, {'Product': 'boat', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Super'}, {'Product': 'boat', 'Name': 'Flipkart Customer', 'Rating': '1', 'CommentHead': 'Waste of money!', 'Comment': "This product is not chargingI have purchased it and it's charging is not working in only 1 week latter"}, {'Product': 'boat', 'Name': 'Flipkart Customer', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': "This product is not chargingI have purchased it and it's charging is not working in only 1 week latter"}]
+INFO:werkzeug:192.168.0.103 - - [21/Jan/2024 15:49:20] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.103 - - [21/Jan/2024 15:49:21] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.0.103 - - [21/Jan/2024 15:49:21] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
